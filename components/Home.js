@@ -25,7 +25,7 @@ const Firstpage = () =>{
           <div
             key={index}
             className="one"
-            style={{ cursor: 'pointer' }}
+            
             onClick={() => handleClick(topic.path)}
           >
             

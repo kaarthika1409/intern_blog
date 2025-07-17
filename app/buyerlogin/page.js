@@ -11,7 +11,7 @@ export default function BuyerLogin() {
 
   return (
     <div className="commmonlogin">
-      <center>
+      
         <h1 className="buyerl">Buyer Login</h1>
         <div className="log">
           <label htmlFor="name">Name :</label>
@@ -27,7 +27,7 @@ export default function BuyerLogin() {
 
           <h3>Don't have an account? Signup</h3>
         </div>
-      </center>
+      
     </div>
   );
 }

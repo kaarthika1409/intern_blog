@@ -41,12 +41,11 @@ export default function  Home ()  {
   return (
     <div className="main">
       <h1>HELLO! Welcome to BLOGbuy.com</h1>
-      <div className="cards-container">
+      <div className="buyer-container">
         {topics.map((topic, index) => (
           <div
             key={index}
             className="one"
-            style={{ cursor: 'pointer' }}
             onClick={() => handleClick(topic.path)}
           >
             <img src={topic.img} alt={topic.title} />

@@ -22,22 +22,18 @@ center {
   padding: 20px;
   margin: 20px auto;
   width: 300px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
 }
-
-.one:hover {
-  transform: scale(1.03);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
-
 
 .commmonlogin {
   background-color: #ffffff;
-  margin: 40px auto;
+  margin: 40px ;
   padding: 30px;
   max-width: 400px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-left: 500px;
+  margin-top: 100px;
 }
 
 .log input {
@@ -47,10 +43,11 @@ center {
   border-radius: 8px;
   border: 1px solid #ccc;
   font-size: 16px;
+  align-items: center;
 }
 
 .log button {
-  background-color: #2b78e4;
+  background-color: black;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -61,7 +58,7 @@ center {
 }
 
 .log button:hover {
-  background-color: #1c57a5;
+  background-color:black;
 }
 
 .cards-container {
@@ -95,7 +92,7 @@ form textarea {
   width: 100%;
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid #aaa;
+  border: 1px solid white;
   margin-bottom: 15px;
   font-size: 16px;
 }
@@ -146,11 +143,15 @@ button:hover {
 }
 
 .blog-item {
-  border: 1px solid #ccc;
+  border: 1px solid white;
   padding: 10px;
   margin-top: 10px;
 }
 
 h2, h3, h4 {
   margin-bottom: 5px;
+}
+
+.commmonlogin{
+  align-items: center;
 }
